@@ -4,6 +4,7 @@
         <h3 class="emailTitle">
           请发送消息联系我们
         </h3>
+        <h4>目前该网页功能已取消，以后想要加入右键功能时记得申请Emailjs</h4>
         <form class="input" ref="form" @submit.prevent="onclick">
             <input name="name" type="text" placeholder="你的名字" 
             style="width: 340px;background-color: rgba(0, 0, 0, 0.5);color:white;box-shadow: 0 0 25px aliceblue;"><br>
