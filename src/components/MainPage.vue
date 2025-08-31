@@ -6,7 +6,6 @@
             <el-button type="info" plain @click="go2notice()">唱响世界</el-button>
             <el-button type="info" plain @click="vision()">旅游蓝图</el-button>
             <el-button type="info" plain @click="test()">用户调查</el-button>
-            <el-button type="info" plain @click="email()">意见邮箱</el-button>
         </el-card>
         <el-scrollbar class="scrollbar">
             <div class="block">
@@ -22,6 +21,24 @@
                                 狭义地讲，所谓中国民族音乐就是祖祖辈辈生活、繁衍在中国这片土地上的各民族，
                                 从古到今在悠久历史文化传统上创造的具有民族特色，能体现民族文化和民族精神的音乐。
                                 而广义上，民族音乐是泛指中国音乐家所创作的音乐和具有中国五声色彩的音乐。
+                                <br>
+                                民族音乐就是产自于民间，流传在民间的,表现民间生活，生产的歌曲或乐曲。
+                                中国的民族音乐艺术是世界上非常具有特色的一种艺术形式。中华民族在几千年的文明中，
+                                创造了大量优秀的民族音乐文化，形成了有着深刻内涵和丰富内容的民族音乐体系。
+                                这一体系在世界音乐中占有重要的地位。我们要认识中国音乐，不能仅仅会唱一些中国歌曲，
+                                听几段传统乐曲，还必须从民族的、历史的、地域的角度去考察中国音乐，了解中国音乐，
+                                从而真正理解中国音乐的内涵，了解它在世界音乐体系中的地位和历史价值。
+                                <br><br><br>
+                                民族音乐分为：民间歌曲、民间歌舞音乐、民间器乐、民间说唱音乐和民间戏曲音乐。
+                                <br><br><br>
+                                中国是一个有着几千年文明历史的国家，中国音乐是人类历史上起源最早的音乐之一。
+                                根据考古发掘和史书记载, 我们的祖先大约在7000年前就已经能用禽骨和陶土制作出骨笛
+                                和陶埙这样的吹奏乐器。到伏羲时代，已经能发明丝弦乐器、古琴和瑟，黄帝时代已有笙
+                                簧创制和音律理论出现。这些发现都说明，我们的祖先在当时已经具备了对音乐相当的创
+                                造能力和审美能力。后来经过历朝历代的发展，使得汉民族音乐日臻成熟，形成了以五声
+                                调式即宫、商、角、徵、羽为基础，内容丰富，理论完备，特色鲜明的音乐体系。 
+                                这一体系不仅深深植根于中国的音乐文化之中，还被传播到世界的很多国家和地区，
+                                成为世界音乐体系中的重要组成部分。
                                 </p>
                             </div>
                         </el-card>
@@ -102,12 +119,6 @@ export default {
         test(){
             window.open("https://www.wjx.cn/vm/wFNbCzs.aspx# ")
         },
-        email(){
-            const { href } = this.$router.resolve({
-                path:"/email"
-            })
-            window.open(href,"_blank")
-        }
     }
 }
 </script>
@@ -133,7 +144,7 @@ export default {
     margin-left:10%;
 }
 .CardList{
-    width:80%;
+    width:80.85%;
     margin-top:15px;
     margin-left:10%;
 }
@@ -159,10 +170,10 @@ export default {
   }
 
   .el-carousel__item:nth-child(2n) {
-    height:100vh;
+    height:400vh;
   }
   
   .el-carousel__item:nth-child(2n+1) {
-    height:100vh;
+    height:400vh;
   }
 </style>

@@ -6,7 +6,6 @@ import MainPage from "../components/MainPage"
 import PolPage from "../components/PolPage"
 import NewsPage from "../components/NewsPage"
 import NoticePage from "../components/NoticePage"
-import EmailPage from "../components/EmailPage"
 import VisionPage from "../components/VisionPage"
 
 const router=new VueRouter({
@@ -24,9 +23,6 @@ const router=new VueRouter({
     },{
         path:"/notice",
         component:NoticePage
-    },{
-        path:"/email",
-        component:EmailPage
     },{
         path:"/vision",
         component:VisionPage
